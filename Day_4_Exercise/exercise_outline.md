@@ -5,7 +5,7 @@ You can work through the exercise at your own pace.  The instructors are availab
  
 # Dataset
 
-The dataset we will look at will the Farm Security Administration/Office of War Information (FSA-OWI) photographs archived on the Library of Congress website (http://www.loc.gov/pictures/collection/fsa/). The photographs were taken in the 1930s and 1940s, during the Great Depression and World War II.  This massive collection contains over 170,000 images, documenting all aspects of life in the United States in those years.  One of the most iconic photographs taken during the Depression , ["Migrant Mother"](http://www.loc.gov/pictures/collection/fsa/item/fsa1998021539/PP/) is a part of this collection.
+The dataset we will look at will be the Farm Security Administration/Office of War Information (FSA-OWI) photographs archived on the Library of Congress website (http://www.loc.gov/pictures/collection/fsa/). The photographs were taken in the 1930s and 1940s, during the Great Depression and World War II.  This massive collection contains over 170,000 images, documenting all aspects of life in the United States in those years.  One of the most iconic photographs taken during the Depression , ["Migrant Mother"](http://www.loc.gov/pictures/collection/fsa/item/fsa1998021539/PP/) is a part of this collection.
 
 One of the key benefits of using this dataset is that all the photographs are in the Public Domain, since they were made by employees of the US government.
 
