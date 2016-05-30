@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<issue>
+	<id>0FFO-1939-JAN02</id>
+	<jn>The Times</jn>
+	<ba>0FFO</ba>
+	<is>48192</is>
+	<da>January 2, 1939</da>
+	<pf>19390102</pf>
+	<ip>44</ip>
+	<cp>Copyright 1939, The Times</cp>
+	<article>
+		<id>0FFO-1939-JAN02-001-001</id>
+		<ocr relevant="yes">74.55</ocr>
+		<sc>a</sc>
+		<pi pgref="1">0FFO-1939-JAN02-001</pi>
+		<ci pgref="1" clip="1">0FFO-1939-JAN02-001-001-001</ci>
+		<pa>1</pa>
+		<pc>1</pc>
+		<ti>Births</ti>
+		<ct>Births</ct>
+		<text>
+				<pg pgref="1" clipref="1" pos="82,560,800,1407" />
+				<p>
+					<wd pos="107,595,174,624">Thc</wd>
+					<wd pos="159,592,305,625">CHARGE</wd>
+					<wd pos="304,592,348,624">[or</wd>
+					<wd pos="339,592,635,625">AN'NOUNCEMENTS</wd>
+					<wd pos="624,596,666,625">of</wd>
+					<wd pos="658,596,790,629">BIRTHS</wd>
+					<wd pos="83,620,273,650">?.IARRIAGES.</wd>
+					<wd pos="280,622,343,649">and</wd>
+					<wd pos="338,622,481,649">DEATHS</wd>
+					<wd pos="482,622,664,650">(authenticated</wd>
+					<wd pos="667,623,711,653">by</wd>
+					<wd pos="712,626,792,654">namc</wd>
+					<wd pos="85,646,143,674">and</wd>
+					<wd pos="85,646,143,674">war</wd>
+					<wd pos="85,646,143,674">WAR</wd>
+</p>
+<pg pgref="2" clipref="1" pos="82,560,800,1407" />
+				<p>
+					<wd pos="140,646,269,673">rcrmanent</wd>
+					<wd pos="269,645,371,673">aIddress</wd>
+					<wd pos="369,646,407,673">ot</wd>
+					<wd pos="411,646,459,674">the</wd>
+					<wd pos="458,646,555,676">sender)</wd>
+					<wd pos="559,647,588,675">is</wd>
+					<wd pos="578,647,667,675">ONE</wd>
+					<wd pos="652,650,798,677">GUINEA</wd>
+				</p>
+		</text>
+	</article>
+</issue>
