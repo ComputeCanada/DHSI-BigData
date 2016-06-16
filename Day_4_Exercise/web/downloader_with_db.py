@@ -8,8 +8,6 @@ c = conn.cursor()
 
 #    c.execute("CREATE TABLE tasks (taskindex int, download_status int, download_link text, image_caption text, image_web text)")
 
-
-
 #t = (1,0,'http://www.google.com')
 #c.execute("INSERT INTO tasks VALUES (?,?,?)",t)
 #conn.commit()
@@ -38,10 +36,6 @@ for row in y:
 		break
 
 print("outside of loop")
-
-#t=(1,)
-#y=c.execute("UPDATE tasks SET download_status=1 where taskindex=?",t)
-#conn.commit()
 
 #y=c.execute("SELECT * from tasks")
 #for row in y:
