@@ -46,7 +46,7 @@ def processEbook(page):
 
 #with concurrent.futures.ProcessPoolExecutor() as executor:
 #    links = list(chain(*executor.map(getLinks, string.ascii_uppercase)))
-for letter in string.ascii_uppercase[11:]:
+for letter in string.ascii_uppercase:
     links = getLinks(letter)
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
         print('Submit futures :')
@@ -58,7 +58,7 @@ for letter in string.ascii_uppercase[11:]:
             futures.append(future)
 
         print('Retrieve pages {}'.format(letter))
-        bar = progressbar.ProgressBar(max_value=len(futures))
+        bar = progressbar.ProgressBar(maxval=len(futures))
         pages = []
         for future in bar(concurrent.futures.as_completed(futures)):
             try:
