@@ -43,9 +43,6 @@ def processEbook(page):
     else:
         return {"description": "ERROR_COMP_NOT_FOUND"}
 
-
-#with concurrent.futures.ProcessPoolExecutor() as executor:
-#    links = list(chain(*executor.map(getLinks, string.ascii_uppercase)))
 for letter in string.ascii_uppercase:
     links = getLinks(letter)
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
@@ -66,14 +63,5 @@ for letter in string.ascii_uppercase:
             except:
                 pages.append((future.link, None))
     
-        #print('Submit futures: ')
-        #bar = progressbar.ProgressBar()
-        #futures = [executor.submit(processMetadata, page) for page in bar(pages)]
-        #print('Retrieve metadata {}'.format(letter))
-        #bar = progressbar.ProgressBar(max_value=len(futures))
-        #meta = [future.result() for future in bar(concurrent.futures.as_completed(futures))]
-    
     with open('adelaide_page_{}.json'.format(letter), 'w') as file_:
         file_.writelines("\n".join(json.dumps(page_i) for page_i in pages))
-#    with open('adelaide_meta_{}.json'.format(letter), 'w') as file_:
-#        file_.writelines("\n".join(json.dumps(meta_i) for meta_i in meta))
